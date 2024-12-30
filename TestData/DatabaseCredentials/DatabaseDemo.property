@@ -1,0 +1,12 @@
+mmyyyy =122024
+userIdAT =AT@DIV211211
+databaseName = DVVNL_VIGILANCE_TEST
+logindatabaseName =DVVNL_Saiadm_TEST
+consumerMasterDbName = Dvvnl_mri_data_test
+DB_URL=jdbc:sqlserver://45.114.143.206;encrypt=true;trustServerCertificate=true
+DB_USER=mantoo
+DB_PASSWORD =mantoo@123#
+userIdET=ET@SAI
+userNameEe =EE@SAI
+divName=EUDD-I ALIGARH
+designation=EE

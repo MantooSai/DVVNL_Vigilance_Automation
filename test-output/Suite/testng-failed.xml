@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.utility.Reporting2"/>
+  </listeners>
+  <test thread-count="5" name="VigilanceTest(failed)">
+    <classes>
+      <class name="com.demo.testCase.AssessmentFeedingCase">
+        <methods>
+          <include name="toveriyCountOfAssessmentApprovalCase"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="toveriyfetchedAssessmentFeedingCaseDetailsFromTable"/>
+          <include name="close"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.demo.testCase.AssessmentFeedingCase -->
+      <class name="com.demo.testCase.AllotAttendCase">
+        <methods>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="tearDown"/>
+          <include name="openBrowser"/>
+          <include name="toverifySearchOptionIsWorkingAndFetchedDetailsFromTable"/>
+        </methods>
+      </class> <!-- com.demo.testCase.AllotAttendCase -->
+      <class name="com.demo.testCase.AssessmentApproval">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="openBrowser"/>
+          <include name="close"/>
+          <include name="toveriyCountOfAssessmentApprovalCase"/>
+        </methods>
+      </class> <!-- com.demo.testCase.AssessmentApproval -->
+    </classes>
+  </test> <!-- VigilanceTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
